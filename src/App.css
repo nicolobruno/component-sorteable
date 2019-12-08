@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  padding-top: 40px;
+}
+
+.image {
+  width: 79px;
+  height: 85px;
+  margin-right: 15px;
+  border: solid grey;
+  border-radius: 8px;
+}
+
+.name {
+  width: 70px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.imageMoveByName {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 20px;
+  right: -90px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  float: left;
+}
+
+.separator {
+  border-top: solid 1.5px grey;
+  margin: 30px 25px 30px;
+}

@@ -1,0 +1,37 @@
+.imageMove {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  top: 75px;
+  right: -103px;
+}
+
+.containerHorizontal {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 10px 30px;
+  border-radius: 8px;
+  padding: 10px;
+  width: 55%;
+}
+
+.sortActived {
+  background-color: #e0e0e0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 79px;
+  height: 85px;
+  margin-right: 20px;
+  border: solid grey;
+  border-radius: 8px;
+}
